@@ -1,0 +1,11 @@
+interface Methods {
+
+    void sound();
+
+    void wheels();
+
+    void model();
+
+    int getSeats();
+
+}
