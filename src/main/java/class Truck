@@ -1,0 +1,28 @@
+public class Truck implements Methods {
+
+    private int seats;
+
+    Truck(int seats) {
+        this.seats = seats;
+    }
+
+    @Override
+    public void sound(){
+        System.out.println("HOOOONK");
+    }    
+
+    @Override
+    public void wheels(){
+        System.out.println("10 wheels");
+    }
+
+    @Override
+    public void model(){
+        System.out.println("Benz");
+    }
+
+    @Override
+    public int getSeats(){
+        return seats;
+    }
+}
