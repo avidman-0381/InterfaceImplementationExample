@@ -1,0 +1,14 @@
+class Main{
+
+    public static void main(String[] args){
+
+        Methods method1 = new Truck(2);
+        Methods method2 = new Bicycle(1);
+
+        Vehicle vehicle1 = new Vehicle(method1);
+        Vehicle vehicle2 = new Vehicle(method2);
+
+        vehicle1.printDets();
+        vehicle2.printDets();
+    }
+}
