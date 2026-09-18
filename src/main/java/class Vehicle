@@ -1,0 +1,15 @@
+public class Vehicle {
+
+    private Methods methods;
+
+    Vehicle(Methods methods){
+        this.methods = methods;
+    }
+
+    public void printDets(){
+        methods.sound();
+        methods.wheels();
+        methods.model();
+        System.out.println("Seats: " + methods.getSeats());
+    }
+}
